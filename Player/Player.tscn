@@ -1012,7 +1012,7 @@ node_connections = [ "output", 0, "idle_run", "idle_run", 0, "idle", "idle_run",
 script = ExtResource( 1 )
 
 [node name="axe" parent="." instance=ExtResource( 2 )]
-transform = Transform( -0.00686228, 0.99177, 0.127845, 0.0531662, 0.128029, -0.990344, -0.998562, 1.01328e-06, -0.0536072, -11.5704, 3.4861, 1.08569 )
+transform = Transform( -0.00657356, 0.992451, 0.122465, 0.0532028, 0.122642, -0.991023, -0.998562, 9.83476e-07, -0.0536073, -11.5654, 3.5121, 1.07822 )
 
 [node name="CollisionShape" type="CollisionShape" parent="axe"]
 transform = Transform( 0.999806, -0.0106401, 0.0165731, 0.0133771, 0.984486, -0.17495, -0.0144544, 0.175138, 0.984438, 0.0880055, 5.31889, 0.626373 )

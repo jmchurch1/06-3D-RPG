@@ -4,10 +4,10 @@ onready var Camera = $Pivot/Camera
 onready var Anim = $AnimationPlayer
 
 var gravity = -30
-var max_speed = 10
+var max_speed = 5
 var mouse_sensitivity = 0.002
 var mouse_range = 1.2
-var speed = 0.2
+var speed = 0.1
 
 var velocity = Vector3()
 
