@@ -14,6 +14,7 @@ var velocity = Vector3()
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	#Where I am spawning enemies, later make it after you talk to npc
 
 
 func get_input():

@@ -53,7 +53,7 @@ noise = SubResource( 2 )
 
 [resource]
 shader = SubResource( 1 )
-shader_param/base_color = Color( 0.54902, 0.913725, 0.603922, 1 )
+shader_param/base_color = Color( 0.109804, 0.905882, 0.0823529, 1 )
 shader_param/near_far = Vector2( 0.1, 100 )
 shader_param/hexes_scale = 20.0
 shader_param/hex_tex = SubResource( 3 )
