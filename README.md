@@ -3,7 +3,7 @@ Project 6 for MSCH-C220
 This game is the last project for MSCH-C220
 
 # Instructions
-- Press E to talk with the NPC
+- Press E to talk with the NPC, press space to move through dialog
 - Complete the task
 - Press E to talk with the NPC again
 
