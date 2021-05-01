@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/End.gd" type="Script" id=1]
+
+[node name="End" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 431.339
+margin_top = 326.942
+margin_right = 521.339
+margin_bottom = 359.942
+rect_scale = Vector2( 2, 2 )
+text = "QUIT"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 202.271
+margin_top = 154.326
+margin_right = 357.271
+margin_bottom = 168.326
+rect_scale = Vector2( 4, 4 )
+text = "You completed the task!"
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
